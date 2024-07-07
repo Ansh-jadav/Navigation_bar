@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbf9f9;
+    color: white;
+}
+
+.navbar {
+    background-color: #060000;
+    height: 100px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    flex: 30;
+}
+
+
+.navbar a {
+    display: block;
+    color: rgb(237, 195, 9);
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: None;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.navbar a:hover {
+    background-color: #31d3cd21;
+    padding: 10px 10px;
+}
+
+.navbar .logo a {
+    float: left;
+    display: block;
+    color: #fcf9f9;
+    text-align: center;
+    padding: 10px  20px;
+    text-decoration: none;
+    font-size: 2.5em;
+    margin-right: 30px;
+}
+.navbar a.active {
+    background-color: #4CAF50;
+}
+
+button{
+    background-color: rgb(15, 1, 1); margin-left: 20px; border-radius: 40px; padding: 1.5px 16px; width: px; height:65px ;margin-top: 15px; 
+}
+
+button:hover {
+    background-color: #151414;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 6px rgba(253, 248, 248, 0.2);
+}
+
+button a{
+    color: rgb(109, 17, 17); font-weight: bold; font-size: 30px; text-decoration: none;
+    line-height: 0.5px;
+    
+}
